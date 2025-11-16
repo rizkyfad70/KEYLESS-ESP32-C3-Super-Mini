@@ -113,19 +113,27 @@ Serial.println(WiFi.macAddress());
 -LED OFF
 -Buzzer beeps
 
+---
+
 ⚠️ Security Notes
  -ESP-NOW is not easily sniffed because it does not use standard WiFi frames.
  -Encryption adds extra protection against packet replay or cloning.
  -Avoid sharing your encryption key publicly.
 
+---
+
 📜 License
 This project is released under the MIT License.
 See LICENSE for full details.
+
+---
 
 🤝 Credits
 ESP-NOW examples from Espressif
 Custom Transposition Cipher algorithm
 System design & implementation by Moch Rizky F.
+
+---
 
 📞 Contact
 For contribution or questions, please open an Issue in this repository.
